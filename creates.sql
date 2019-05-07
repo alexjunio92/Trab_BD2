@@ -4,8 +4,8 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
-CREATE DATABASE IF NOT EXISTS `instagram2` /*!40100 DEFAULT CHARACTER SET utf16 */;
-USE `instagram2`;
+CREATE DATABASE IF NOT EXISTS `instagram` /*!40100 DEFAULT CHARACTER SET utf16 */;
+USE `instagram`;
 
 CREATE TABLE IF NOT EXISTS `colecao` (
   `id_usuario` int(11) NOT NULL,
@@ -49,6 +49,7 @@ CREATE TABLE IF NOT EXISTS `mensagem` (
 CREATE TABLE IF NOT EXISTS `midia` (
   `id_midia` int(11) NOT NULL,
   `id_tipo_midia` int(11) NOT NULL,
+  `path` varchar(50) NOT NULL,
   `Descricao` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id_midia`,`id_tipo_midia`),
   KEY `FK_midia_tipos_midia` (`id_tipo_midia`),
@@ -82,7 +83,7 @@ CREATE TABLE IF NOT EXISTS `stories` (
 
 CREATE TABLE IF NOT EXISTS `tipos_midia` (
   `id_tipo_midia` int(11) NOT NULL,
-  `path` varchar(500) NOT NULL,
+  `descricao_midia` varchar(500) NOT NULL,
   PRIMARY KEY (`id_tipo_midia`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf16;
 

@@ -61,27 +61,27 @@ INSERT INTO `mensagem` (`id_mensagem`, `curtida`, `visualizacao`, `path`, `texto
 /*!40000 ALTER TABLE `mensagem` ENABLE KEYS */;
 
 /*!40000 ALTER TABLE `midia` DISABLE KEYS */;
-INSERT INTO `midia` (`id_midia`, `id_tipo_midia`, `Descricao`, `Path`) VALUES
-	(1, 2, 'Default Description for a media', 'http://domain/collection/1.jpg'),
-	(2, 2, 'Default Description for a media', 'http://domain/collection/2.jpg'),
-	(3, 2, 'Default Description for a media', 'http://domain/collection/4.jpg'),
-	(4, 2, 'Default Description for a media', 'http://domain/collection/5.jpg'),
-	(5, 2, 'Default Description for a media', 'http://domain/collection/6jpg'),
-	(6, 2, 'Default Description for a media', 'http://domain/collection/7.jpg'),
-	(7, 2, 'Default Description for a media', 'http://domain/collection/8.jpg'),
-	(8, 2, 'Default Description for a media', 'http://domain/collection/3.jpg'),
-	(9, 2, 'Default Description for a media', 'http://domain/collection/10.jpg'),
-	(10, 2, 'Default Description for a media', 'http://domain/collection/9.jpg'),
-	(11, 1, 'Default Description for a media', 'http://domain/collection/1.mp4'),
-	(12, 1, 'Default Description for a media', 'http://domain/collection/0.mp4'),
-	(13, 1, 'Default Description for a media', 'http://domain/collection/9.mp4'),
-	(14, 1, 'Default Description for a media', 'http://domain/collection/8.mp4'),
-	(15, 1, 'Default Description for a media', 'http://domain/collection/7.mp4'),
-	(16, 1, 'Default Description for a media', 'http://domain/collection/6.mp4'),
-	(17, 1, 'Default Description for a media', 'http://domain/collection/5.mp4'),
-	(18, 1, 'Default Description for a media', 'http://domain/collection/4.mp4'),
-	(19, 1, 'Default Description for a media', 'http://domain/collection/3.mp4'),
-	(20, 1, 'Default Description for a media', 'http://domain/collection/2.mp4');
+INSERT INTO `midia` (`id_midia`, `id_tipo_midia`, `path`, `Descricao`) VALUES
+	(1, 2, 'http://domain/collection/1.jpg', 'Default Description for a media'),
+	(2, 2, 'http://domain/collection/2.jpg', 'Default Description for a media'),
+	(3, 2, 'http://domain/collection/4.jpg', 'Default Description for a media'),
+	(4, 2, 'http://domain/collection/5.jpg', 'Default Description for a media'),
+	(5, 2, 'http://domain/collection/6jpg', 'Default Description for a media'),
+	(6, 2, 'http://domain/collection/7.jpg', 'Default Description for a media'),
+	(7, 2, 'http://domain/collection/8.jpg', 'Default Description for a media'),
+	(8, 2, 'http://domain/collection/3.jpg', 'Default Description for a media'),
+	(9, 2, 'http://domain/collection/10.jpg', 'Default Description for a media'),
+	(10, 2, 'http://domain/collection/9.jpg', 'Default Description for a media'),
+	(11, 1, 'http://domain/collection/1.mp4', 'Default Description for a media'),
+	(12, 1, 'http://domain/collection/0.mp4', 'Default Description for a media'),
+	(13, 1, 'http://domain/collection/9.mp4', 'Default Description for a media'),
+	(14, 1, 'http://domain/collection/8.mp4', 'Default Description for a media'),
+	(15, 1, 'http://domain/collection/7.mp4', 'Default Description for a media'),
+	(16, 1, 'http://domain/collection/6.mp4', 'Default Description for a media'),
+	(17, 1, 'http://domain/collection/5.mp4', 'Default Description for a media'),
+	(18, 1, 'http://domain/collection/4.mp4', 'Default Description for a media'),
+	(19, 1, 'http://domain/collection/3.mp4', 'Default Description for a media'),
+	(20, 1, 'http://domain/collection/2.mp4', 'Default Description for a media');
 /*!40000 ALTER TABLE `midia` ENABLE KEYS */;
 
 /*!40000 ALTER TABLE `publicacao` DISABLE KEYS */;
