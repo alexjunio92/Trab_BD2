@@ -1,0 +1,4 @@
+Selecionar publicaçõs em que o usuário está marcado
+Selecionar todas a publicações curtidas ordenadas  por data
+Selecionar publicações qe foram curtidas pelos seus seguidores
+Selecionar stories por data de publicação
